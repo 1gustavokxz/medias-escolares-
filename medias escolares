@@ -1,0 +1,31 @@
+# medias-escolaresAlgoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 11/03/2024
+Var
+// Seção de Declarações das variáveis 
+num1: real
+num2: real
+num3: real
+media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  ESCREVA("Quanto voê tirou na primeira prova?: ")
+  LEIA(num1)
+  ESCREVA("Quanto voê tirou na segunda prova?: ")
+  LEIA(num2)
+  ESCREVA("Quanto voê tirou na terceira prova?: ")
+  LEIA(num3)
+  media <- (num1 + num2 + num3) /3
+
+  ESCREVAL(" A media das 3 notas é: ")
+  SE (media < 6) ENTAO
+  ESCREVAL ("Status: Reprovado")
+  SENAO
+  ESCREVAL ("Status Aprovado!")
+  FIMSE
+
+Fimalgoritmo
