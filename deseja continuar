@@ -1,0 +1,30 @@
+Algoritmo "semnome"
+
+
+Var
+continuar:caractere
+X:inteiro
+  
+Inicio
+
+    continuar <- "s" //s = SIM
+    x <- 1
+   enquanto continuar = "s" faca
+     escreva(X)
+     
+     escreval(" - DESEJA CONTINUAR? [S/N]")
+     leia(continuar)
+     escreval("") //SERVE PARA PULAR 1 LINHA
+     
+     se continuar = "S" entao
+       x <- x + 1
+     fimse
+     
+   fimenquanto
+   
+   escreval(" Execuções = ", x)
+
+  //FIMPARA
+
+
+Fimalgoritmo
