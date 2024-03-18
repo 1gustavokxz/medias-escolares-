@@ -1,0 +1,29 @@
+Algoritmo "semnome"
+
+
+Var
+  quantidade:inteiro
+  resultado:caractere
+  
+  
+Inicio
+
+  escreval("Quantas peças possui no estoque?")
+  leia(quantidade)
+  
+  se(quantidade < 50) entao
+   resultado <- "BAIXO"
+  senao
+   se(quantidade < 100) entao
+    resultado <- "NORMAL"
+  senao
+   resultado <- "ALTO"
+   fimse
+  fimse
+  
+   escreval("Quantidade informada = " , quantidade)
+   escreval("O status do ESTOQUE está como [", resultado, "]")
+
+
+
+Fimalgoritmo
