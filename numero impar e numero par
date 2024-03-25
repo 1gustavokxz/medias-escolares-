@@ -1,0 +1,37 @@
+Algoritmo "semnome"
+
+
+Var
+ continuar: caractere
+ par: inteiro
+ impar:inteiro
+ numero:inteiro
+ 
+inicio
+     continuar <- "s"
+     par <- 0
+     impar <- 0
+     
+     enquanto (continuar = "s") ou (continuar = "S") faca
+     
+     escreval ("")
+     escreval ("Escreva um número :")
+     leia (numero)
+     escreval ("")
+     
+     se (numero mod 2 = 0) entao
+     escreval ("par")
+     escreval ("")
+     par <- par + 1
+     senao
+     escreval ("impar")
+     escreval ("")
+     impar <- impar + 1
+fimse
+
+escreval ("Deseja continuar [s/n]")
+leia (continuar)
+
+ fimenquanto
+
+Fimalgoritmo
